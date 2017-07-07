@@ -1,5 +1,10 @@
-rabbitmq:
-  image: rabbitmq:management
-  ports:
-    - "5672:5672"
-    - "15672:15672"
+#rabbitmq
+version: '2'
+
+services:
+  rabbitmq:
+    container_name: noxtech-rabbitmq
+    image: rabbitmq:management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
