@@ -1,2 +1,4 @@
 /build
-uk.co.noxtech.docker.rabbitmq.iml
+*.ipr
+*.iws
+*.iml
